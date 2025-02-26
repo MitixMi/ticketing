@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Soumettre un nom</title>
+</head>
+<body>
+    <form action="/avion/listControllers/submit" method="post">
+        <label for="name">Entrez votre nom :</label>
+        <input type="text" id="name" name="name">
+        <input type="submit" value="Soumettre">
+    </form>
+    <h1>Enter User Details</h1>
+    <form action="/avion/listControllers/submitUser" method="get">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name"><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="user_age"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
